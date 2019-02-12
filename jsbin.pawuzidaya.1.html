@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2019 by anonymous (http://jsbin.com/pawuzidaya/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+<script id="jsbin-javascript">
+// this line represents a comment  this will not be executed 
+
+// a statement to print the String "Hello World"
+console.log('Hello World');
+
+// Variables 
+let elleHacks = 'This Hackathon is AWESOME! 🔥';
+console.log(elleHacks);
+
+/** Expression: A line of code that evaluates values for us
+    3 + 8 itself is an expression that evaluates to 11 
+    before the rest of the statement gets executed 
+**/
+let sumOfTwoNumbers = 3 + 8; 
+
+// Reading user input from the screen 
+let firstName = prompt('Please enter your first name');
+let lastName = prompt('Please enter your last ');
+
+// Get the sum
+let fullName = firstName + ' ' + lastName;
+
+// Output something to the user
+alert ('Your full name is ' + fullName);
+
+// * js reads numbers as strings, not ints. 
+
+// intermediate stuff
+// loops
+
+// the for loop (start, stop, step)
+// 3 sections of a for loop 
+// - initializing the counter 
+// - evaluation expression
+// - end of loop statement 
+
+// a way to print the even numbers between 1-10 
+for (let num = 0; num < 11; num = num + 2){
+  console.log(num);
+}
+
+// conditional statement 
+// another way to print the even numbers between 1 - 10 
+// below takes double the execution time
+for (let num = 0; num < 11; num = num + 2){
+  //
+  if (num % 2 == 0){
+    console.log(num);
+  }
+}
+</script>
+</body>
+</html>
